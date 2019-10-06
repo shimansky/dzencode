@@ -1,0 +1,86 @@
+@background: white;
+@main_color: #6c6c6c;
+@hover_link: #5b6ceb;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body, html {
+	background: @background;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav{
+    position: fixed;
+    background-color: @background;
+	color: @main_color;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	margin: 0px;
+
+	li{
+        list-style-type: none;
+        display:inline-block; 
+        margin: 0 30px 0 0;
+	}
+
+	   a{
+	   color: @main_color;
+	   text-decoration: none;
+	   font-family: 'Open Sans', sans-serif;
+
+	}
+
+	a:hover{
+	   color: @hover_link;
+	   text-decoration:underline;
+
+	}
+
+	
+}
+
+.logo{
+	margin: 0 150px 0 150px;
+}
+
+.slider{
+    
+    max-width: 1917px;
+    height: 600px;
+	color:@background;
+	background: url(../img/slider-bg.gif);
+	background-size: cover;
+	text-align: center;
+    
+}
+
+.slider__send-form{
+	
+	width: 300px;
+    height: 390px;
+    border-radius: 5%;
+    background-color: @background;
+    display: inline-block;
+    margin: 100px 85px 0 0;
+    text-align: left;
+
+    .slider__send-form__big-text{
+
+    color: @hover_link;
+    font-family: 'Open Sans';
+    margin: 40px 0 0 30px;
+    display: inline-block;
+    font-size: 20pt;
+    font-weight: bold;
+    
+    .slider__send-form__input{
+
+    background-color: @main_color;
+    margin: 40px 0 0 30px;
+
+    }
+
+    }
+}
+
