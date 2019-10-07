@@ -19,6 +19,7 @@ nav {
   width: 100%;
   height: 100px;
   margin: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 nav li {
   list-style-type: none;
@@ -68,7 +69,11 @@ nav a:hover {
   background-color: #f2f2f2;
   margin: 40px 0 0 30px;
   border-radius: 5px;
+  border: none;
   margin: 17px 0 0 30px;
+  color: #6c6c6c;
+  font-family: 'Open Sans';
+  font-size: 12pt;
 }
 .slider__send-form .slider__send-form__send-button {
   background-color: #5b6ceb;
@@ -78,4 +83,60 @@ nav a:hover {
   border-radius: 5px;
   border: none;
   margin: 30px 0 0 95px;
+  font-family: 'Open Sans';
+  font-size: 16pt;
+  font-weight: bold;
+}
+.wrapper__slider {
+  height: 390px;
+  display: inline-block;
+  margin: 100px 0 0 80px;
+}
+.slider__big-text {
+  font-family: 'Open Sans';
+  font-size: 38pt;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+}
+.yoga-classes {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+.yoga-classes__big-text {
+  color: #5b6ceb;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-size: 20pt;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 120px;
+}
+.yoga-classes__small-text {
+  color: #6c6c6c;
+  font-family: 'Freestyle Script';
+  font-size: 20pt;
+  display: inline-block;
+  margin-top: 30px;
+}
+.yoga-classes__yoga-card {
+  width: 570px;
+  height: 300px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: auto;
+}
+.yoga-classes__yoga-card img {
+  align: left;
+}
+.yoga-classes__yoga-card__big-text {
+  font-family: 'Open Sans';
+  font-size: 15pt;
+  font-weight: bold;
+  color: #6c6c6c;
+  text-transform: uppercase;
+  display: inline-block;
 }
