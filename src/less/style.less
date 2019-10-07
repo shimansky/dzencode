@@ -1,6 +1,8 @@
 @background: white;
 @main_color: #6c6c6c;
 @hover_link: #5b6ceb;
+@input_color: #f2f2f2;
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body, html {
@@ -73,14 +75,27 @@ nav{
     display: inline-block;
     font-size: 20pt;
     font-weight: bold;
+
+    }
     
     .slider__send-form__input{
-
-    background-color: @main_color;
+    width: 225px;
+    height: 50px;
+    background-color: @input_color;
     margin: 40px 0 0 30px;
+    border-radius: 5px;
+    margin: 17px 0 0 30px;
 
     }
 
+    .slider__send-form__send-button{
+    background-color: @hover_link;
+    width: 170px;
+    height: 50px;
+    color: @background;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 0 95px;
     }
 }
 

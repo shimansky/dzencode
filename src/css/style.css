@@ -62,7 +62,20 @@ nav a:hover {
   font-size: 20pt;
   font-weight: bold;
 }
-.slider__send-form .slider__send-form__big-text .slider__send-form__input {
-  background-color: #6c6c6c;
+.slider__send-form .slider__send-form__input {
+  width: 225px;
+  height: 50px;
+  background-color: #f2f2f2;
   margin: 40px 0 0 30px;
+  border-radius: 5px;
+  margin: 17px 0 0 30px;
+}
+.slider__send-form .slider__send-form__send-button {
+  background-color: #5b6ceb;
+  width: 170px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin: 30px 0 0 95px;
 }
